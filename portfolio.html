@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Venuste NIYODUSABA</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="portfolio.css">
+  <style>
+ html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>portfolio</h1>
+    <nav>
+      <ul>
+        <li><a href="#home" >Home</a></li>
+        <li><a href="#about">About <span>Me</span></a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section class="hero" id="home">
+    <div class="hero-text">
+      <h2>Hello, it's <span>me</span></h2>
+      <h2>Venuste <strong>NIYODUSABA</strong></h2>
+      <h3> <span class="typing"> A Full Stack Developer & Data Analyst&  UI and UX Designer </span></h3>
+      <p>I build modern, scalable web applications and transform raw data into actionable insights.</p>
+      <p>
+        <strong>Description:</strong><br>
+        Passionate about crafting end-to-end solutions  from backend systems to dynamic UIs,
+        analyzing complex datasets for smarter decision making. Skilled in JavaScript, Python, SQL, HTML/CSS, Power BI, and Tableau.
+      </p>
+      <div class="social-icons">
+        <a href="https://github.com/venuste-niyodusaba" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://x.com/home" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.youtube.com/@niyodusabavenuste2338" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://web.facebook.com/?__mmr=1&_rdc=1&_rdr#" target="_blank"><i class="fab fa-facebook"></i></a>
+      </div>
+      <a href="file:///D:/setup/my%20second%20project/CV.pdf" class="btn">Download CV</a>
+    </div>
+    <div class="hero-img">
+      <img src="WhatsApp Image 2025-08-13 at 21.08.22_81b24c7f.jpg" alt="Venuste NIYODUSABA">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-container">
+      <div class="about-img">
+        <img src="WhatsApp Image 2025-08-13 at 21.08.22_81b24c7f.jpg" alt="Venuste NIYODUSABA">
+      </div>
+      <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <p>
+          I’m Venuste, a versatile Full Stack Developer and Data Analyst passionate about building technology that solves real-world problems.
+          I thrive at the intersection of coding and data-driven decision-making.
+        </p>
+        <p>
+          On the development side, I create scalable web applications using JavaScript (React, Node.js), Python, and SQL.
+          On the analytics side, I work with Pandas, Power BI, Tableau, and Excel to transform raw data into actionable insights.
+        </p>
+        <a href="#services" class="btn">Read More</a>
+      </div>
+    </div>
+  </section>
+
+<section class="services" id="services">
+  <h2>Our <span>Services</span></h2>
+  <div class="service-cards">
+    <div class="card">
+      <i class="fas fa-code"></i>
+      <h3>frontend Development</h3>
+      <p>I’m venuste, a versatile Full Stack Developer
+         and Data Analyst with a passion for building technology 
+         that solves real-world problems. With a strong foundation in both software development
+          and data analytics, I thrive at the intersection of coding and decision-making.</p>
+      <a href="#!" class="btn" onclick="openModal('modal-web')">Read More</a>
+    </div>
+    <div class="card">
+      <i class="fas fa-code"></i>
+      <h3>backed Development</h3>
+      <p>I’m venuste, a versatile Full Stack Developer
+         and Data Analyst with a passion for building technology 
+         that solves real-world problems. With a strong foundation in both software development
+          and data analytics, I thrive at the intersection of coding and decision-making.</p>
+      <a href="#!" class="btn" onclick="openModal('modal-web')">Read More</a>
+    </div>
+    <div class="card">
+      <i class="fas fa-chart-line"></i>
+      <h3>Data Analysis</h3>
+      <p>I’m venuste, a versatile Full Stack Developer
+         and Data Analyst with a passion for building technology 
+         that solves real-world problems. With a strong foundation in both software development
+          and data analytics, I thrive at the intersection of coding and decision-making.</p>
+      <a href="#!" class="btn" onclick="openModal('modal-data')">Read More</a>
+    </div>
+    <div class="card">
+      <i class="fas fa-drafting-compass"></i>
+      <h3>UI and UX design</h3>
+      <p>I’m venuste, a versatile Full Stack Developer
+         and Data Analyst with a passion for building technology 
+         that solves real-world problems. With a strong foundation in both software development
+          and data analytics, I thrive at the intersection of coding and decision-making.</p>
+      <a href="#!" class="btn" onclick="openModal('modal-db')">Read More</a>
+    </div>
+
+  </div>
+</section>
+<div id="modal-web" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal-web')">&times;</span>
+    <h3>Web Development</h3>
+    <p>I build fully responsive websites and web apps using HTML, CSS, JavaScript,
+         and frameworks like React and Node.js. I integrate APIs, optimize performance, 
+         and ensure cross-browser compatibility.</p>
+  </div>
+</div>
+
+<div id="modal-data" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal-data')">&times;</span>
+    <h3>Data Analysis</h3>
+    <p>I clean, visualize, and analyze data using Python libraries such as Pandas,
+         Matplotlib, and Seaborn to extract actionable insights
+          that drive smarter decision-making.</p>
+  </div>
+</div>
+
+<div id="modal-db" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal-db')">&times;</span>
+    <h3>Database Management</h3>
+    <p>I design and manage relational (MySQL, PostgreSQL) and NoSQL (MongoDB) databases efficiently,
+         ensuring data integrity, scalability, and fast query performance.</p>
+  </div>
+</div>
+
+    </div>
+  </section>
+  <section class="projects" id="projects">
+    <h2>My <span>Projects</span></h2>
+   <div class="projects-grid">
+  <div class="project-card">
+    <img src="code.avif" alt="Project 1">
+    <h3>Frontend Development</h3>
+    <p>Developed responsive and interactive web interfaces using HTML,
+         CSS, and JavaScript, integrating 
+         frameworks like React for dynamic user experiences.</p>
+  </div>
+  <div class="project-card">
+    <img src="data.jpg" alt="Project 2">
+    <h3>Data Analysis</h3>
+    <p>Performed data cleaning, visualization,
+         and analysis using Python libraries (Pandas, Matplotlib, Seaborn) 
+         to extract actionable insights and support decision-making.</p>
+  </div>
+  <div class="project-card">
+    <img src="design.png" alt="Project 3">
+    <h3>UI and UX Design</h3>
+    <p>Created user-centered designs and prototypes using Figma and Adobe XD,
+         focusing on intuitive navigation, accessibility,
+          and modern visual aesthetics.</p>
+  </div>
+</div>
+
+  </section>
+  <section class="contact" id="contact">
+    <h2>Contact <span>Me</span></h2>
+    <form action="https://formspree.io/f/mnnzykqg" method="POST" class="contact-form">
+      <input type="text" name="firstName" placeholder="Your Name" required>
+      <input type="text" name="lastName" placeholder="Last Name" required>
+      <input type="text" name="phone" placeholder="Telephone" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+</section>
+
+  </section>
+
+</body>
+</html>
+<script>
+function openModal(id) {
+  document.getElementById(id).style.display = 'block';
+}
+function closeModal(id) {
+  document.getElementById(id).style.display = 'none';
+}
+
+window.onclick = function(event) {
+  const modals = document.querySelectorAll('.modal');
+  modals.forEach(modal => {
+    if(event.target == modal) {
+      modal.style.display = 'none';
+    }
+  });
+}
+</script>
