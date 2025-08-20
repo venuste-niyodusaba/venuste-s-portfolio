@@ -449,3 +449,32 @@ section {
     font-size: 13px;
   }
 }
+/* --- Menu toggle (hamburger) --- */
+    .menu-toggle {
+      display: none;
+      font-size: 28px;
+      cursor: pointer;
+      color: #00aaff;
+    }
+
+    @media (max-width: 630px) {
+      nav {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background: #000;
+        margin-top: 10px;
+        padding: 10px 0;
+      }
+      nav ul {
+        flex-direction: column;
+        gap: 15px;
+      }
+      nav.active {
+        display: flex;
+      }
+      .menu-toggle {
+        display: block;
+      }
+    }
