@@ -223,7 +223,7 @@ section {
 
 .card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 10px 20px rgba(0, 170, 255, 0.4);
+  box-shadow:  5px 10px 30px rgba(0, 166, 255, 0.4);
 }
 
 .card i {
@@ -273,7 +273,7 @@ section {
 
 .project-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 10px 20px rgba(0, 170, 255, 0.4);
+  box-shadow: 5px 10px 30px rgba(0, 170, 255, 0.4);
 }
 
 .project-card img {
